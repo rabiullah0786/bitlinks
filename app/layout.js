@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar"; 
-import SessionProvider from "./provider";  
+import Provider from "./provider";  
 
 export const metadata = {
   title: "Bitlinks - Your trusted URL shortener",
@@ -12,10 +12,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <SessionProvider>   {/* 👈 Wrap your app inside */}
+        <Provider>   {/* 👈 Wrap your app inside */}
           <Navbar />
           {children}
-        </SessionProvider>
+        </Provider>
       </body>
     </html>
   );
