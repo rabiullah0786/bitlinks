@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar"; 
-import Provider from "./provider";  
+import Provider from "./Provider";  
 
 export const metadata = {
   title: "Bitlinks - Your trusted URL shortener",

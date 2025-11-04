@@ -35,9 +35,9 @@ export default function Home() {
         
 
     <main className="bg-purple-100">
-      <section className="grid grid-cols-2 h-[50vh]">
-        <div className="flex flex-col gap-4 items-center justify-center">
-          <p className={`text-3xl font-bold `}>
+      <section className="flex flex-col-reverse md:flex-row items-center justify-between h-auto md:h-[70vh] px-6 py-10 gap-8">
+        <div className="flex flex-col gap-4 items-center md:items-start justify-center md:w-1/2 text-center md:text-left">
+          <p className={`text-3xl md:text-4xl font-bold `}>
             The best URL shortener in the Market
           </p>
           <p className="px-49 text-center">
@@ -48,7 +48,7 @@ export default function Home() {
           <Link href="/github"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white'>GitHub</button></Link>
         </div>
         </div>
-        <div className=" flex justify-start relative">  
+        <div className=" flex justify-center md:justify-end md:w-1/2">  
         <img src="https://img.freepik.com/free-vector/elegant-business-people-office-scene_24877-57739.jpg?ga=GA1.1.1388785423.1759513098&semt=ais_hybrid&w=740&q=80" alt="" />
         </div>
 
