@@ -62,7 +62,7 @@ export default function AboutPage() {
         {/* Buttons */}
         <div className="flex flex-wrap justify-center gap-4">
           <motion.a
-            href="mailto:rabiullah@example.com"
+            href="mailto:rabiullaha02@gmail.com"
             whileHover={{ scale: 1.1 }}
             className="bg-yellow-300 text-indigo-700 font-semibold px-6 py-2 rounded-full shadow-md hover:bg-yellow-400 transition-all"
           >
